@@ -2,10 +2,10 @@
 <html lang="en">
  
 <head>
+    <title>import-csv-file-using-PHP-MySQL</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
- 
 </head>
  
 <body>
@@ -15,16 +15,13 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">Form</div>
                     <div class="panel-body">
-                        <form class="form-horizontal" action="action.php" method="post" name="upload_excel" enctype="multipart/form-data">
-                            <!-- File Button -->
+                        <form class="form-horizontal" action="action.php" method="post"  enctype="multipart/form-data">
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="filebutton">Select File</label>
                                 <div class="col-md-4">
                                     <input type="file" required name="file" id="file" class="input-large">
                                 </div>
                             </div>
-
-                            <!-- Button -->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="singlebutton"></label>
                                 <div class="col-md-4">
@@ -34,12 +31,9 @@
                         </form>
                     </div>
                 </div>
-
- 
             </div>
-
         </div>
     </div>
 </body>
- 
+
 </html>
